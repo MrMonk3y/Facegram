@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891D0C831D435F3B00099F6D /* TranslucentTextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891D0C821D435F3B00099F6D /* TranslucentTextFile.swift */; };
+		891D0C851D43612900099F6D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891D0C841D43612900099F6D /* LoginController.swift */; };
+		891D0C871D43AF1000099F6D /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891D0C861D43AF1000099F6D /* RegisterController.swift */; };
+		891D0C891D440DCD00099F6D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891D0C881D440DCD00099F6D /* PostCell.swift */; };
+		89536F781D39705600A11A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89536F771D39705600A11A58 /* AppDelegate.swift */; };
+		89536F7D1D39705600A11A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89536F7B1D39705600A11A58 /* Main.storyboard */; };
+		89536F821D39705600A11A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89536F801D39705600A11A58 /* LaunchScreen.storyboard */; };
+		89536F8D1D39905300A11A58 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89536F8C1D39905300A11A58 /* PostModel.swift */; };
+		89536F8F1D3991BD00A11A58 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89536F8E1D3991BD00A11A58 /* ProfileModel.swift */; };
+		8976C5111D4109DE00E916E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8976C5101D4109DE00E916E3 /* GoogleService-Info.plist */; };
+		8976C5141D41769E00E916E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976C5131D41769E00E916E3 /* Extensions.swift */; };
+		89CEBC611D4410E500F0AAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CEBC601D4410E500F0AAAC /* Assets.xcassets */; };
+		89F3ED101D3B6603001F0C89 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3ED0F1D3B6603001F0C89 /* ProfileController.swift */; };
+		89F3ED121D3B6947001F0C89 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3ED111D3B6947001F0C89 /* FeedController.swift */; };
+		89F3ED141D3B7EE3001F0C89 /* CenterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3ED131D3B7EE3001F0C89 /* CenterTabBarController.swift */; };
+		89F3ED161D3B8626001F0C89 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3ED151D3B8626001F0C89 /* CameraController.swift */; };
+		89F3ED181D3B8AC0001F0C89 /* CaptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3ED171D3B8AC0001F0C89 /* CaptionController.swift */; };
+		A4F06AC5A2FBFC20E95AC7C2 /* Pods_Facegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E02029BF9BC0EFF3161B37 /* Pods_Facegram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7BF82FB1E2C2A39DC8F7DE /* Pods-Facegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facegram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facegram/Pods-Facegram.debug.xcconfig"; sourceTree = "<group>"; };
+		891D0C821D435F3B00099F6D /* TranslucentTextFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslucentTextFile.swift; sourceTree = "<group>"; };
+		891D0C841D43612900099F6D /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		891D0C861D43AF1000099F6D /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		891D0C881D440DCD00099F6D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		89536F741D39705600A11A58 /* Facegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89536F771D39705600A11A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89536F7C1D39705600A11A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89536F811D39705600A11A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89536F831D39705600A11A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89536F8C1D39905300A11A58 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		89536F8E1D3991BD00A11A58 /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		8976C5101D4109DE00E916E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8976C5131D41769E00E916E3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		89CEBC601D4410E500F0AAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89F3ED0F1D3B6603001F0C89 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		89F3ED111D3B6947001F0C89 /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		89F3ED131D3B7EE3001F0C89 /* CenterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTabBarController.swift; sourceTree = "<group>"; };
+		89F3ED151D3B8626001F0C89 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		89F3ED171D3B8AC0001F0C89 /* CaptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionController.swift; sourceTree = "<group>"; };
+		9877EE63282C51B417615F05 /* Pods-Facegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facegram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facegram/Pods-Facegram.release.xcconfig"; sourceTree = "<group>"; };
+		F3E02029BF9BC0EFF3161B37 /* Pods_Facegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89536F711D39705600A11A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F06AC5A2FBFC20E95AC7C2 /* Pods_Facegram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89536F6B1D39705600A11A58 = {
+			isa = PBXGroup;
+			children = (
+				89CEBC601D4410E500F0AAAC /* Assets.xcassets */,
+				89536F761D39705600A11A58 /* Facegram */,
+				89536F751D39705600A11A58 /* Products */,
+				89B61D12BEB458A25BB97337 /* Pods */,
+				FAC288B5A8B8FB5251D643E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89536F751D39705600A11A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89536F741D39705600A11A58 /* Facegram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89536F761D39705600A11A58 /* Facegram */ = {
+			isa = PBXGroup;
+			children = (
+				8976C5121D41768900E916E3 /* Extensions */,
+				8976C5101D4109DE00E916E3 /* GoogleService-Info.plist */,
+				89536F891D39752000A11A58 /* Controller */,
+				89536F8A1D39752000A11A58 /* Model */,
+				89536F8B1D39752000A11A58 /* View */,
+				89536F771D39705600A11A58 /* AppDelegate.swift */,
+				89536F7B1D39705600A11A58 /* Main.storyboard */,
+				89536F801D39705600A11A58 /* LaunchScreen.storyboard */,
+				89536F831D39705600A11A58 /* Info.plist */,
+			);
+			path = Facegram;
+			sourceTree = "<group>";
+		};
+		89536F891D39752000A11A58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89F3ED0F1D3B6603001F0C89 /* ProfileController.swift */,
+				89F3ED111D3B6947001F0C89 /* FeedController.swift */,
+				89F3ED131D3B7EE3001F0C89 /* CenterTabBarController.swift */,
+				89F3ED151D3B8626001F0C89 /* CameraController.swift */,
+				89F3ED171D3B8AC0001F0C89 /* CaptionController.swift */,
+				891D0C841D43612900099F6D /* LoginController.swift */,
+				891D0C861D43AF1000099F6D /* RegisterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89536F8A1D39752000A11A58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89536F8C1D39905300A11A58 /* PostModel.swift */,
+				89536F8E1D3991BD00A11A58 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89536F8B1D39752000A11A58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				891D0C821D435F3B00099F6D /* TranslucentTextFile.swift */,
+				891D0C881D440DCD00099F6D /* PostCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8976C5121D41768900E916E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8976C5131D41769E00E916E3 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89B61D12BEB458A25BB97337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B7BF82FB1E2C2A39DC8F7DE /* Pods-Facegram.debug.xcconfig */,
+				9877EE63282C51B417615F05 /* Pods-Facegram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAC288B5A8B8FB5251D643E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E02029BF9BC0EFF3161B37 /* Pods_Facegram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89536F731D39705600A11A58 /* Facegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89536F861D39705600A11A58 /* Build configuration list for PBXNativeTarget "Facegram" */;
+			buildPhases = (
+				021F4AF0A1D78F12AAB93834 /* [CP] Check Pods Manifest.lock */,
+				89536F701D39705600A11A58 /* Sources */,
+				89536F711D39705600A11A58 /* Frameworks */,
+				89536F721D39705600A11A58 /* Resources */,
+				4FB32570CFB6F0913348C21E /* [CP] Embed Pods Frameworks */,
+				F4E89A8186B8B9EFB4B04975 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facegram;
+			productName = Facegram;
+			productReference = 89536F741D39705600A11A58 /* Facegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89536F6C1D39705600A11A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sascha Jecklin";
+				TargetAttributes = {
+					89536F731D39705600A11A58 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BU9R4JD2S4;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 89536F6F1D39705600A11A58 /* Build configuration list for PBXProject "Facegram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89536F6B1D39705600A11A58;
+			productRefGroup = 89536F751D39705600A11A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89536F731D39705600A11A58 /* Facegram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89536F721D39705600A11A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89536F821D39705600A11A58 /* LaunchScreen.storyboard in Resources */,
+				8976C5111D4109DE00E916E3 /* GoogleService-Info.plist in Resources */,
+				89CEBC611D4410E500F0AAAC /* Assets.xcassets in Resources */,
+				89536F7D1D39705600A11A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		021F4AF0A1D78F12AAB93834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB32570CFB6F0913348C21E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facegram/Pods-Facegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E89A8186B8B9EFB4B04975 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facegram/Pods-Facegram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89536F701D39705600A11A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891D0C851D43612900099F6D /* LoginController.swift in Sources */,
+				89F3ED101D3B6603001F0C89 /* ProfileController.swift in Sources */,
+				891D0C891D440DCD00099F6D /* PostCell.swift in Sources */,
+				8976C5141D41769E00E916E3 /* Extensions.swift in Sources */,
+				89F3ED121D3B6947001F0C89 /* FeedController.swift in Sources */,
+				89F3ED181D3B8AC0001F0C89 /* CaptionController.swift in Sources */,
+				891D0C831D435F3B00099F6D /* TranslucentTextFile.swift in Sources */,
+				89536F8D1D39905300A11A58 /* PostModel.swift in Sources */,
+				89536F781D39705600A11A58 /* AppDelegate.swift in Sources */,
+				891D0C871D43AF1000099F6D /* RegisterController.swift in Sources */,
+				89536F8F1D3991BD00A11A58 /* ProfileModel.swift in Sources */,
+				89F3ED161D3B8626001F0C89 /* CameraController.swift in Sources */,
+				89F3ED141D3B7EE3001F0C89 /* CenterTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89536F7B1D39705600A11A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89536F7C1D39705600A11A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89536F801D39705600A11A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89536F811D39705600A11A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89536F841D39705600A11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89536F851D39705600A11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89536F871D39705600A11A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7BF82FB1E2C2A39DC8F7DE /* Pods-Facegram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Facegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sascha.Facegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89536F881D39705600A11A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9877EE63282C51B417615F05 /* Pods-Facegram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Facegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sascha.Facegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89536F6F1D39705600A11A58 /* Build configuration list for PBXProject "Facegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89536F841D39705600A11A58 /* Debug */,
+				89536F851D39705600A11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89536F861D39705600A11A58 /* Build configuration list for PBXNativeTarget "Facegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89536F871D39705600A11A58 /* Debug */,
+				89536F881D39705600A11A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89536F6C1D39705600A11A58 /* Project object */;
+}
